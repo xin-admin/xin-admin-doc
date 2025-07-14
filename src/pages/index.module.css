@@ -2,22 +2,82 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+.container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  min-width: 360px;
+}
 
-.heroBanner {
-  padding: 4rem 0;
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.header {
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  margin-bottom: 20px;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.headerTitle {
+  font-weight: 700;
+  margin-bottom: 16px;
+  font-size: 56px;
 }
 
-.buttons {
+.header img {
+  width: 160px;
+  height: 160px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.headerText {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.logosCard {
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.logosCard .logo {
   display: flex;
-  align-items: center;
+  padding: 20px;
   justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #eeeeee;
+}
+
+[data-theme='dark'] .logosCard .logo {
+  background: #3c3c3c;
+}
+
+.feedback {
+  padding: 0 30px;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feedback div {
+  position: relative;
+  margin-left: 10px;
+}
+
+.feedback img {
+  border: 1px solid #eef1f8;
+}
+
+.feedback p {
+  position: absolute;
+  width: 100%;
+  bottom: -36px;
+  font-size: 18px;
+  text-align: center;
 }

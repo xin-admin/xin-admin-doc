@@ -18,5 +18,29 @@
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "item.label.介绍": {
+    "message": "介绍",
+    "description": "Navbar item with label 介绍"
+  },
+  "item.label.UI 文档": {
+    "message": "UI 文档",
+    "description": "Navbar item with label UI 文档"
+  },
+  "item.label.Laravel 应用": {
+    "message": "Laravel 应用",
+    "description": "Navbar item with label Laravel 应用"
+  },
+  "item.label.ThinkPHP 应用": {
+    "message": "ThinkPHP 应用",
+    "description": "Navbar item with label ThinkPHP 应用"
+  },
+  "item.label.Taro 应用": {
+    "message": "Taro 应用",
+    "description": "Navbar item with label Taro 应用"
+  },
+  "item.label.论坛": {
+    "message": "论坛",
+    "description": "Navbar item with label 论坛"
   }
 }
