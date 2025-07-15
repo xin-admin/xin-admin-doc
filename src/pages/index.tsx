@@ -22,6 +22,11 @@ export default function Home(): ReactNode {
             <h1 className={styles.headerTitle}>Xin Admin</h1>
             <p className={styles.headerText}>一套完整的前后端解决方案，助力开发者快速构建企业级应用</p>
           </div>
+
+          <div className={styles.poster} onClick={() => window.open('https://market.aliyun.com/common/ysczhg?userCode=si1k101g', '_blank')}>
+            <img src="/static/img/aliyun.png" alt="aliyun"/>
+          </div>
+
           <div className={'row'}>
             {versions.map((version) => (
               <VersionCard data={version}/>
