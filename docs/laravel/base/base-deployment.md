@@ -26,8 +26,8 @@ description: XinAdmin文档 - XinAdmin 部署，当您准备好将 `XinAdmin` �
 - 如果需要使用 Swoole 来启动服务，还需要安装 Swoole 扩展。
 
 <div style="margin: 20px 0">
-  <img src="./img/img.png" alt="" style="height: 400px; margin-right: 50px"/>
-  <img src="./img/img1.png" alt="" style="height: 400px"/>
+  <img src="../img/img.png" alt="" style="height: 400px; margin-right: 50px"/>
+  <img src="../img/img1.png" alt="" style="height: 400px"/>
 </div>
 以宝塔为例，你可以在宝塔面板的应用商店中安装这些应用，安装完成 PHP 之后，在 PHP 的设置中安装所需要的扩展。
 
@@ -46,8 +46,8 @@ description: XinAdmin文档 - XinAdmin 部署，当您准备好将 `XinAdmin` �
 如果你熟悉 `Nginx` 的配置，你可以自己来配置 `Nginx` 站点，下面是用宝塔来创建两个不同的站点。
 
 <div style="margin: 20px 0">
-  <img class="inline" src="./img/img2.png" alt="" style="height: 400px; margin-right: 50px"/>
-  <img class="inline" src="./img/img3.png" alt="" style="height: 400px"/>
+  <img class="inline" src="../img/img2.png" alt="" style="height: 400px; margin-right: 50px"/>
+  <img class="inline" src="../img/img3.png" alt="" style="height: 400px"/>
 </div>
 
 - 实际应用中，你需要将你的域名解析到当前服务器的 IP 地址中。如图例，它会为你自动创建 `Nginx` 站点，并且创建一个空数据库。
@@ -98,7 +98,7 @@ location / {
 
 与分离式部署一样，你需要创建一个站点并且新建一个空数据库。
 
-<img class="inline" src="./img/img2.png" alt="" style="height: 400px; margin: 20px 0;"/>
+<img class="inline" src="../img/img2.png" alt="" style="height: 400px; margin: 20px 0;"/>
 
 通过以下步骤将 XinAdmin 后端程序部署到站点中：
 
