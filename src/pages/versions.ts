@@ -11,6 +11,7 @@ export default [
       url: 'https://gitee.com/xin-admin'
     },
     demo: 'https://ui.xinadmin.cn',
+    doc: '/ui/intro'
   },
   {
     title: 'Laravel',
@@ -24,6 +25,7 @@ export default [
       url: 'https://gitee.com/xin-admin'
     },
     demo: 'https://laravel.xinadmin.cn',
+    doc: '/laravel/intro'
   },
   {
     title: 'Think',
@@ -37,6 +39,7 @@ export default [
       url: 'https://gitee.com/xin-admin'
     },
     demo: 'https://think.xinadmin.cn',
+    doc: '/thinkphp/intro'
   },
   {
     title: 'Taro',
@@ -50,5 +53,6 @@ export default [
       url: 'https://gitee.com/xin-admin'
     },
     demo: 'https://taro.xinadmin.cn',
+    doc: '/taro/intro'
   }
 ]
