@@ -24,7 +24,7 @@ export interface IRule {
   id: number;
   // 上级ID，顶级菜单的 pid 为 0
   pid: number;
-  // 权限类型，分为菜单、路由、嵌套路由、权限
+  // 权限类型，分为菜单、路由、权限
   type: 'menu' | 'route' | 'nested-route' | 'rule';
   // 权限的唯一标识
   key: string;
@@ -40,10 +40,12 @@ export interface IRule {
   icon?: string;
   // 多语言
   local?: string;
-  // 状态
-  status?: number;
   // 是否显示
   show?: number;
+  // 是否外链
+  link?: boolean;
+  // 是否缓存页面
+  cache?: boolean;
 }
 ```
 
@@ -70,7 +72,7 @@ export interface IRule {
 ### ReactRoute 路由
 
 XinAdmin 会根据规则自动生成路由，它会忽略类型为 `menu` 和 `rule` 的规则，根据 `elementPath` 来确认路由的组件
-所有的路由都会被包裹在布局路由 layout 之下，所有的路由path都是一个完整的路径，并且支持页面中[嵌套路由](/ui/rule-route/rule)。
+所有的路由都会被包裹在布局路由 layout 之下，所有的路由path都是一个完整的路径，并且支持页面中[嵌套路由](/ui/nested-route/rule)。
 
 ### 组件路径
 
@@ -89,3 +91,7 @@ XinAdmin 会根据规则自动生成路由，它会忽略类型为 `menu` 和 `r
 ### 多语言
 
 菜单栏或和面包屑的多语言配置，你可以在 `src/locales/{语言}/menu.ts` 中添加。
+
+### 外链 Link
+
+当 route 规则的 外链为 true 时，它不会生成路由，只会生成菜单项，点击菜单项会跳转到外链的页面。
