@@ -3,10 +3,10 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import styles from './index.module.css';
 import clsx from "clsx";
-import logos from "./logos";
+import logos from "@site/src/data/logos";
 import BlockTitle from "@site/src/components/BlockTitle";
 import ProjectCard from "@site/src/components/ProjectCard";
-import versions from "./versions";
+import versions from "@site/src/data/versions";
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
