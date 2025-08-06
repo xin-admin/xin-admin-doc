@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Xin Admin',
-  tagline: 'A ',
+  tagline: '一套完整的前后端解决方案，助力开发者快速构建企业级应用',
   favicon: 'https://file.xinadmin.cn/file/favicons.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -31,7 +31,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['en', 'fr', 'zh-Hans'],
+    locales: ['zh-Hans'],
   },
   presets: [
     [
@@ -45,8 +45,8 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        path: 'docs/introduce',
-        routeBasePath: '/introduce',
+        path: 'docs',
+        routeBasePath: 'introduce',
         sidebarPath: 'sidebars.ts',
       },
     ],
@@ -54,7 +54,7 @@ const config: Config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'ui',
-        path: 'docs/ui',
+        path: 'docs-ui',
         routeBasePath: 'ui',
         sidebarPath: 'sidebars.ts',
       },
@@ -63,7 +63,7 @@ const config: Config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'laravel',
-        path: 'docs/laravel',
+        path: 'docs-laravel',
         routeBasePath: 'laravel',
         sidebarPath: 'sidebars.ts',
       },
@@ -72,7 +72,7 @@ const config: Config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'thinkphp',
-        path: 'docs/thinkphp',
+        path: 'docs-thinkphp',
         routeBasePath: 'thinkphp',
         sidebarPath: 'sidebars.ts',
       },
@@ -81,7 +81,7 @@ const config: Config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'taro',
-        path: 'docs/taro',
+        path: 'docs-taro',
         routeBasePath: 'taro',
         sidebarPath: 'sidebars.ts',
       },
