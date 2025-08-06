@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.introduceSidebar.category.基础教程": {
+    "message": "基础教程",
+    "description": "The label for category 基础教程 in sidebar introduceSidebar"
+  },
+  "sidebar.introduceSidebar.category.基础教程.link.generated-index.title": {
+    "message": "教程总览",
+    "description": "The generated-index page title for category 基础教程 in sidebar introduceSidebar"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.introduceSidebar.category.布局与主题": {
+    "message": "布局与主题",
+    "description": "The label for category 布局与主题 in sidebar introduceSidebar"
+  },
+  "sidebar.introduceSidebar.category.布局与主题.link.generated-index.title": {
+    "message": "教程总览",
+    "description": "The generated-index page title for category 布局与主题 in sidebar introduceSidebar"
+  },
+  "sidebar.introduceSidebar.category.路由权限": {
+    "message": "路由权限",
+    "description": "The label for category 路由权限 in sidebar introduceSidebar"
+  },
+  "sidebar.introduceSidebar.category.路由权限.link.generated-index.title": {
+    "message": "教程总览",
+    "description": "The generated-index page title for category 路由权限 in sidebar introduceSidebar"
+  }
+}

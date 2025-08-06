@@ -30,8 +30,9 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    defaultLocale: 'zh',
+    locales: ['zh', 'en'],
+    path: 'i18n',
   },
   presets: [
     [
@@ -150,16 +151,11 @@ const config: Config = {
           position: 'left',
           label: 'Taro 应用',
         },
-        // {
-        //   type: 'docsVersionDropdown',
-        //   docsPluginId: 'default',
-        //   position: 'right',
-        // },
-        // {
-        //   type: 'docsVersionDropdown',
-        //   docsPluginId: 'uiSidebar',
-        //   position: 'right',
-        // },
+        {
+          type: 'docsVersionDropdown',
+          docsPluginId: 'ui',
+          position: 'right',
+        },
         {href: 'https://bbs.xinadmin.cn', label: '论坛', position: 'right'},
         {href: 'https://github.com/xin-admin', label: 'GitHub', position: 'right'},
         {type: 'localeDropdown', position: 'right'},

@@ -1,0 +1,38 @@
+{
+  "title": {
+    "message": "Xin Admin",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Xin Admin Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.介绍": {
+    "message": "Introduction",
+    "description": "Navbar item with label Introduction"
+  },
+  "item.label.UI 文档": {
+    "message": "UI Documentation",
+    "description": "Navbar item with label UI Documentation"
+  },
+  "item.label.Laravel 应用": {
+    "message": "Laravel Application",
+    "description": "Navbar item with label Laravel Application"
+  },
+  "item.label.ThinkPHP 应用": {
+    "message": "ThinkPHP Application",
+    "description": "Navbar item with label ThinkPHP Application"
+  },
+  "item.label.Taro 应用": {
+    "message": "Taro Application",
+    "description": "Navbar item with label Taro Application"
+  },
+  "item.label.论坛": {
+    "message": "Forum",
+    "description": "Navbar item with label Forum"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
