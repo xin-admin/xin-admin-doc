@@ -2,7 +2,6 @@
 sidebar_position: 0
 ---
 
-# 1.0介绍
+# Introduction
 
-XinAdmin 是一款软件技术解决方案，通过前沿技术栈为开发者提供快速、便捷的项目起点，适用于各种开发领域，
-并且提供高性能应用环境，使其不仅可以应用于传统WEB项目，也可以用于物联网、生产制造、电商、社会服务等对稳定性和访问速度有着较高需求的企业级项目。
+XinAdmin is a software technology solution designed to provide developers with a fast and convenient project starting point through cutting-edge technology stacks. It is adaptable to various development domains and delivers a high-performance application environment, making it suitable not only for traditional web projects but also for enterprise-level applications—such as IoT, manufacturing, e-commerce, and social services—that demand high stability and rapid access speeds.

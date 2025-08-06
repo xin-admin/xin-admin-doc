@@ -2,19 +2,25 @@
 sidebar_position: 2
 ---
 
-# 加入我们
+# Join Us
 
-:::success
-良好的开源项目，需要各位开发者共同发展！我们诚邀并且欢迎你加入我们的开源项目，一起为技术的发展和开源社区做贡献！
+:::success 
+A thriving open-source project needs contributions from developers like you! We sincerely invite and welcome you to join our open-source community. Let's work together to advance technology and contribute to the open-source ecosystem! 
 :::
 
-### 成为项目维护者
+### Become a Project Maintainer
 
-你可以在 Github 上通过完成 [issues](https://github.com/xiaoliu978/Xin-Admin/issues) 或者 提交有利项目发展的 [Pull Requests](https://github.com/xiaoliu978/Xin-Admin//pulls) 来成为项目的共建者或者维护者
+You can become a contributor or maintainer by:
 
-当然你的名字一定会出现在我们项目的贡献列表中，这不仅可以使你的简历更加优秀，也可以使你积累项目经验，为以后的事业发展铺路。
-我们欢迎在校大学生以及兴趣爱好者加入我们，一起参与对 XinAdmin 的贡献。
+- Addressing [issues](https://github.com/xin-admin/xin-admin/issues) on GitHub
 
-### 成为开发者
+- Submitting beneficial [Pull Requests](https://github.com/xin-admin/xin-admin/pulls)
 
-你可以通过开发插件并发布，成为开发者，一起参与项目生态系统的共建
+
+Your name will be featured in our project's contributors list, enhancing your resume and helping you gain valuable experience for future career growth.
+
+We especially welcome university students and tech enthusiasts to join us in improving XinAdmin!
+
+### Become a Developer
+
+You can also contribute by developing and publishing plugins, helping to expand the project's ecosystem.

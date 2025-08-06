@@ -2,14 +2,14 @@
 sidebar_position: 3
 ---
 
-# 赞助
+# Sponsorship
 
-希望你了解建立一个开源项目的不易，如果条件允许的情况下，可以请我们喝杯咖啡！
+We hope you understand the challenges of maintaining an open-source project. If you'd like to support us, consider buying us a coffee!
 
-### 微信赞助
+### WeChat Sponsorship
 
 <img width="300" src="https://xinadmin.oss-cn-beijing.aliyuncs.com/file/wxPay.jpg"/>
 
-### 支付宝赞助
+### Alipay Sponsorship
 
 <img width="300" src="https://xinadmin.oss-cn-beijing.aliyuncs.com/file/aliPay.jpg"/>

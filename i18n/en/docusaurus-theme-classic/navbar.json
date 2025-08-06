@@ -4,7 +4,7 @@
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "Xin Admin Logo",
+    "message": "Xin Admin",
     "description": "The alt text of navbar logo"
   },
   "item.label.介绍": {
@@ -16,15 +16,15 @@
     "description": "Navbar item with label UI Documentation"
   },
   "item.label.Laravel 应用": {
-    "message": "Laravel Application",
+    "message": "Laravel",
     "description": "Navbar item with label Laravel Application"
   },
   "item.label.ThinkPHP 应用": {
-    "message": "ThinkPHP Application",
+    "message": "ThinkPHP",
     "description": "Navbar item with label ThinkPHP Application"
   },
   "item.label.Taro 应用": {
-    "message": "Taro Application",
+    "message": "Taro",
     "description": "Navbar item with label Taro Application"
   },
   "item.label.论坛": {
