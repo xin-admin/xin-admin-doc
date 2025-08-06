@@ -6,14 +6,13 @@ const config: Config = {
   title: 'Xin Admin',
   tagline: '一套完整的前后端解决方案，助力开发者快速构建企业级应用',
   favicon: 'https://file.xinadmin.cn/file/favicons.ico',
-
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
   // Set the production url of your site here
-  url: 'https://xinadmin.cn',
+  url: 'https://xin-admin.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -21,7 +20,8 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'xin-admin', // Usually your GitHub org/user name.
-  projectName: 'xin-admin', // Usually your repo name.
+  projectName: 'xin-admin.github.io', // Usually your repo name.
+  deploymentBranch: 'main',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
