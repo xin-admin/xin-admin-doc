@@ -11,7 +11,7 @@ React 组件库: <a href="https://ant.design/index-cn/" target="_blank" rel="nor
 PHP 框架: <a href="https://doc.thinkphp.cn/" target="_blank" rel="noreferrer">Think PHP</a>，当然我们也会在文档中尽可能的去详细的描述任何一个相关的知识点，以便新手也可以快速上手本项目
 
 :::warning
-如果你还没有基础的开发环境，建议你先阅读[环境准备](/doc/dev)章节
+如果你还没有基础的开发环境，建议你先阅读环境准备章节
 如果你想使用本项目，强烈建议你花几分钟时间阅读一下本文章！如果在安装过程中有任何错误，也请你加入我们的[官方 qq 群](/introduce/author#联系我)来获取帮助。
 :::
 

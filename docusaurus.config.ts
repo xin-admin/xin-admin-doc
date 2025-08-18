@@ -31,7 +31,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh',
-    locales: ['zh', 'en'],
+    locales: ['zh'],
     path: 'i18n',
   },
   presets: [
@@ -151,14 +151,14 @@ const config: Config = {
           position: 'left',
           label: 'Taro 应用',
         },
-        {
-          type: 'docsVersionDropdown',
-          docsPluginId: 'ui',
-          position: 'right',
-        },
+        // {
+        //   type: 'docsVersionDropdown',
+        //   docsPluginId: 'ui',
+        //   position: 'right',
+        // },
         {href: 'https://bbs.xinadmin.cn', label: '论坛', position: 'right'},
         {href: 'https://github.com/xin-admin', label: 'GitHub', position: 'right'},
-        {type: 'localeDropdown', position: 'right'},
+        // {type: 'localeDropdown', position: 'right'},
         {type: 'search', position: 'right'},
       ],
     },
